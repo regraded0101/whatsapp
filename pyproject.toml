@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "whatapp"
+version = "0.1.0"
+description = "Package to structure and analyse whatsapp text data"
+authors = ["Jon Fuller <jonfuller0207@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+ipykernel = "^6.29.4"
+black = "^24.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
